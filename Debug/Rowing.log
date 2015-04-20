@@ -1,0 +1,35 @@
+﻿Build started 3/31/2015 9:39:17 PM.
+     1>Project "d:\MyDocs\documents\visual studio 2010\Projects\Rowing\Rowing\Rowing.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Rowing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt filter.c
+         filter.c
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(58): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(62): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(126): warning C4716: 'Hip_X_Filter' : must return a value
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(130): warning C4716: 'Hip_Y_Filter' : must return a value
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(134): warning C4716: 'Hip_Z_Filter' : must return a value
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(138): warning C4716: 'Knee_X_Filter' : must return a value
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(142): warning C4716: 'Knee_Y_Filter' : must return a value
+     1>d:\mydocs\documents\visual studio 2010\projects\rowing\rowing\filter.c(146): warning C4716: 'Knee_Z_Filter' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\mydocs\documents\visual studio 2010\Projects\Rowing\Debug\Rowing.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Rowing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\mydocs\documents\visual studio 2010\Projects\Rowing\Debug\Rowing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\mydocs\documents\visual studio 2010\Projects\Rowing\Debug\Rowing.lib" /MACHINE:X86 Debug\filter.obj
+         LINK : d:\mydocs\documents\visual studio 2010\Projects\Rowing\Debug\Rowing.exe not found or not built by the last incremental link; performing full link
+         Rowing.vcxproj -> d:\mydocs\documents\visual studio 2010\Projects\Rowing\Debug\Rowing.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"d:\mydocs\documents\visual studio 2010\Projects\Rowing\Debug\Rowing.exe;#1" /manifest Debug\Rowing.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Rowing.unsuccessfulbuild".
+         Touching "Debug\Rowing.lastbuildstate".
+     1>Done Building Project "d:\MyDocs\documents\visual studio 2010\Projects\Rowing\Rowing\Rowing.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
