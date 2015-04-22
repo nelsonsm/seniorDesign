@@ -15,13 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="filter.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="strokeRate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filterTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,5 +41,16 @@
     <None Include="..\..\..\..\..\SeniorYear\SeniorDesignBleh\test_3_20\kneefiltX.txt">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="plan.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

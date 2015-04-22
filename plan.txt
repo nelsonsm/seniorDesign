@@ -1,0 +1,35 @@
+1)Initialize accelerometers
+2)Wait for "start"
+
+while(!stopped){
+	enable interrupts 
+	start sessionTimer
+
+	determine threshold{
+		if(kneeX > 0.01)
+			//200 points per second
+			determine max out of 5 seconds
+			threshold = max - 0.03
+	}
+
+
+	stroke rate code
+	display stroke rate
+
+}
+
+stop sessionTimer
+
+
+
+interrupt every 0.05 seconds{
+	get shoulder X
+	filter shoulder X
+	display shoulder X
+
+	get knee X 
+	filter knee X
+	waiting = 0;
+
+	display sessionTimer
+}

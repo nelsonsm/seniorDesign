@@ -39,6 +39,7 @@ int main()
 //stop timer
 //print 5/time
 
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -63,7 +64,7 @@ static double TIMER_INTERVAL = 0.005;
 int main(void){
 
 	//initialize variables
-	close;
+	close = 0;
 	i = 0;
 	start = 0;
 	maxCounter = 0;
@@ -99,7 +100,9 @@ int main(void){
 	for(i=0; i<3; i++){
 		while(maxCounter < 5){
 			prev = current;
+			//while(waiting);
 			fscanf(fp,"%f",&current);
+			//waiting = 1;
 			dataPoints++;
 			timer += TIMER_INTERVAL;
 			timerBetweenMax += TIMER_INTERVAL;
@@ -131,3 +134,4 @@ int main(void){
 	scanf("%d", &close);
 }
 
+*/
