@@ -62,9 +62,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="filter.c" />
+    <ClCompile Include="strokeRate.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\..\SeniorYear\SeniorDesignBleh\test_3_20\kneefiltX.txt" />
     <None Include="..\..\..\..\SeniorYear\SeniorDesignBleh\test_3_20\accel1_test1.txt" />
     <None Include="..\..\..\..\SeniorYear\SeniorDesignBleh\test_3_20\filtered_trial1_shoulder.txt" />
   </ItemGroup>

@@ -3,6 +3,7 @@
 y[n] = 0.000013294 x[n] + 0.000053175 x[n-1] + 0.000079762 x[n-2] + 0.000053175 x[n-3] + 0.000013294 x[n-4] 
 		+ 3.6717 y[n-1] - 5.0680 y[n-2] - 3.1160 y[n-3] - 0.7199 y[n-4]
 */
+/*
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -144,3 +145,5 @@ double Knee_Y_Filter(float value){
 double Knee_Z_Filter(float value){
 
 }
+
+*/

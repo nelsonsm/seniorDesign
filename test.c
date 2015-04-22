@@ -10,6 +10,7 @@ Pin 19 & 20 I2C1 (0x1C and 0x1D)
 No resistors needed
 */
 
+/*
 #include <errno.h>
 #include <string.h>
 #include <stdio.h>
@@ -412,5 +413,5 @@ void readA3(){
     
 }
 
-
+*/
 
